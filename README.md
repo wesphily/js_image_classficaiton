@@ -1,2 +1,1 @@
-# js_image_classficaiton
-JS Image Classification
+This is a simple image classifier. Open html.index in Chrome. Allow Chrome to use your camera. Hold up an object and click A several times. You might change the angle of the object so that it learns all the angles of the object. Then hold up a new object and do the same with the B button. Continue doing this until each button is trained on an object.
