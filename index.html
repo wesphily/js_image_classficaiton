@@ -4,34 +4,16 @@
     <script src="https://unpkg.com/@tensorflow/tfjs"></script>
     <script src="https://unpkg.com/@tensorflow-models/mobilenet"></script>
     <script src="https://unpkg.com/@tensorflow-models/knn-classifier"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div id="console" class="container">
+    <div id="console"></div>
     <!-- Add an image that we will use to test -->
-    <div class="row">
-      <div class='col-sm'>
-      </div>
-      <div class='col-sm'>
     <video autoplay playsinline muted id="webcam" width="224" height="224"></video>
-      </div>
-      <div class='col-sm'>
-      </div>
-    </div>
-    <div class="row">
-      <div class='col-sm'>
-      </div>
-      <div class='col-sm'>
-      <button id="class-a" type="button" class="btn btn-primary">Add A</button>
-      <button id="class-b" type="button" class="btn btn-secondary">Add B</button>
-      <button id="class-c" type="button" class="btn btn-success">Add C</button>
-      <button id="class-d" type="button" class="btn btn-danger">Add D</button>
-      </div>
-      <div class='col-sm'>
-      </div>
-    </div>
+    <button id="class-a">Add A</button>
+    <button id="class-b">Add B</button>
+    <button id="class-c">Add C</button>
+    <button id="class-d">Add D</button>
     <!-- Load index.js after the content of the page -->
     <script src="index.js"></script>
-    </div>
   </body>
 </html>
